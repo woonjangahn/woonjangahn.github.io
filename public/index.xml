@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>안운장 블로그</title>
-    <link>https://woonjangahn.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on 안운장 블로그</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
     <lastBuildDate>Tue, 15 Apr 2025 10:41:26 +0900</lastBuildDate>
-    <atom:link href="https://woonjangahn.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Post</title>
-      <link>https://woonjangahn.github.io/posts/first-post/</link>
+      <title>첫번째 글</title>
+      <link>http://localhost:1313/posts/first-post/</link>
       <pubDate>Tue, 15 Apr 2025 10:41:26 +0900</pubDate>
-      <guid>https://woonjangahn.github.io/posts/first-post/</guid>
-      <description></description>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>&lt;p&gt;사실 새해 목표 중 하나가 일기를 쓰는 것이었는데, 어느덧 4월 중순이 되었다. 친한 동생이자 선배인 H군은 회고 모임을 하면서 주기적으로 작성한 글을 내게 메신저로 보내준다. 늘 읽기만 하면서 &amp;lsquo;잘 읽었습니다&amp;rsquo; 정도의 답신만 보내고 있었는데, 나도 한번 기록을 남겨보면 어떨까 싶었다.&lt;/p&gt;&#xA;&lt;p&gt;최근들어 자주 만나고 있는 L형과 지난주에 술을 마셨다. (L형은 나보다 3살이 많은데, 컴퓨터 공학도답지 않게 뜬구름 잡는 이야기를 나누는 것을 좋아한다.) L형은 인생의 목표가 본인이 죽은 후에도 남을 유산을 만드는 것이라고 했다. 그래서 지금도 좋은 프로덕트를 만들려는 노력이 그 일환인 것 같았다.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
