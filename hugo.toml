@@ -1,0 +1,8 @@
+baseURL = 'https://woonjangahn.github.io/'
+languageCode = 'ko-kr'
+title = '안운장 블로그'
+theme = 'nostyleplease'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
