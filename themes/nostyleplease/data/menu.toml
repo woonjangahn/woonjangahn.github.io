@@ -1,0 +1,13 @@
+[[entries]]
+title = "posts"
+
+  [entries.post_list]
+  section = "posts"
+  limit = 20
+  show_more = true
+  show_more_text = "더 보기"
+  show_more_url = "posts"
+
+[[entries]]
+title = "rss"
+url = "index.xml"
