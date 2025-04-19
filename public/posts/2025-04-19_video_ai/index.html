@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko-kr"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="description" content="막연하게 아이템도 없이 사업을 준비하고 있는데, 우선 Gen AI를 주제로 vertical 시장에서 기회를 찾아보자고 C군과 협의가 되어 최근에 계속 Gen AI를 활용해서 이것저것 해보고 있다.
+Stable Diffusion이 궁금했어서 유튜브에서 hands on 강의들을 좀 들으면서 따라해보니 흥미를 느끼게 되어서 친구들 사진으로 장난도 치고 그랬다. 어제 C군이 &lsquo;AI가 영상을 학습할 수 있는가&rsquo;를 질문해서 처음에 이게 될까 싶었는데, Stable Diffusion에서 CLIP Text Encode를 사용했던 것이 기억이 났다. Positive/Negative 프롬프트를 해당 노드에 입력해서 KSampler를 거쳐 Decode를 하면 이미지가 생성되는 구조였다.">  
+
+  <title>
+    
+      AI가 영상을 학습할 수 있는가
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/" />
+  
+  
+  
+  <link rel="stylesheet" href="/css/main.900100e9dbee2d56c58fac8bb717037cae7e26a9c36c29d2ff587bdd65f0cbbe510b41d81a3bb234919cdfdc7550d786b2fab70c8fc507772d732fe097106d12.css" integrity="sha512-kAEA6dvuLVbFj6yLtxcDfK5&#43;JqnDbCnS/1h73WXwy75RC0HYGjuyNJGc39x1UNeGsvq3DI/FB3ctcy/glxBtEg==" />
+  
+</head>
+<body a="auto">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+                <div class="post-meta">
+                    <a href="/">..</a>
+
+                    <p>
+                        <time datetime="2025-04-19 16:43:00 &#43;0900 KST">
+                            2025-04-19
+                        </time>
+                    </p>
+                </div>
+
+<article>
+    <h1>AI가 영상을 학습할 수 있는가</h1>
+
+    
+
+    <p>막연하게 아이템도 없이 사업을 준비하고 있는데, 우선 Gen AI를 주제로 vertical 시장에서 기회를 찾아보자고 C군과 협의가 되어 최근에 계속 Gen AI를 활용해서 이것저것 해보고 있다.</p>
+<p>Stable Diffusion이 궁금했어서 유튜브에서 hands on 강의들을 좀 들으면서 따라해보니 흥미를 느끼게 되어서 친구들 사진으로 장난도 치고 그랬다. 어제 C군이 &lsquo;AI가 영상을 학습할 수 있는가&rsquo;를 질문해서 처음에 이게 될까 싶었는데, Stable Diffusion에서 CLIP Text Encode를 사용했던 것이 기억이 났다. Positive/Negative 프롬프트를 해당 노드에 입력해서 KSampler를 거쳐 Decode를 하면 이미지가 생성되는 구조였다.</p>
+<p>인코딩과 디코딩에 대해 생각하다 문득 프로그래밍을 처음 배울 때 CS50 수업을 들은 것이 기억이 났는데, 0과 1이 어떻게 더 큰 숫자를 표현할 수 있게 되고, 글자가 되고, rgb값을 표현할 수 있게 되고, rgb값들로 이루어진 이미지를 표현할 수 있게 되고, 이미지의 연속인 영상을 표현할 수 있다는 것이었다. 당시에 0과 1로 영상을 만들 수 있다는 사실이 처음에는 경이롭게까지 느껴졌었다.</p>
+<p>그래서 결국 &lsquo;영상을 학습시킨다&rsquo;는 것은 영상을 프레임 단위로 분해해서 각 프레임을 이미지로 인식하고, 이미지를 픽셀 단위로 분해해서 각 픽셀을 RGB 값으로 인식하고, 이런 식으로 하위 단계로 분해하는 인코딩과 디코딩 과정을 통해 학습이 가능하다는 결론으로 C군에게 대답해 주었다.</p>
+<p>다만 프레임 간의 시간적 차원이라는 변수를 어떻게 학습시키는지는 아직 완전히 이해하지 못했다. 이 부분은 더 조사가 필요할 것 같다. 현대 영상 생성 AI 모델들은 단순히 개별 프레임을 생성하는 것을 넘어 프레임 간의 일관성과 자연스러운 움직임을 어떻게 만들어내는지가 핵심인데, 이것은 일반적인 이미지 생성과는 다른 복잡한 문제다.</p>
+<p>최근 OpenAI의 Sora나 Runway의 모델들은 놀라운 수준의 영상 생성 능력을 보여주고 있다. 이러한 모델들은 공간적 차원(각 프레임 내의 시각적 요소)뿐만 아니라 시간적 차원(프레임 간의 변화와 움직임)도 함께 학습하는 복잡한 구조를 가지고 있을 것이다.</p>
+<p>처음에 어려운 질문이라고 생각했는데, 프로그래밍을 처음 배울 때 배운 기본적인 것에서 답을 찾게 된 것 같다. 기술이 아무리 복잡해져도 결국 기본 원리는 단순한 경우가 많다. 0과 1로 시작해서 영상 생성 AI까지, 모든 것은 같은 기초 위에 쌓여 있다는 것을 다시 한번 깨닫게 되었다.</p>
+
+</article>
+
+            </div>
+        </main>
+    </body></html>

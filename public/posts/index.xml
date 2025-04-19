@@ -6,14 +6,21 @@
     <description>Recent content in Posts on 안운장 블로그</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 15 Apr 2025 10:41:26 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 19 Apr 2025 16:43:00 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AI가 영상을 학습할 수 있는가</title>
+      <link>http://localhost:1313/posts/2025-04-19_video_ai/</link>
+      <pubDate>Sat, 19 Apr 2025 16:43:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2025-04-19_video_ai/</guid>
+      <description>&lt;p&gt;막연하게 아이템도 없이 사업을 준비하고 있는데, 우선 Gen AI를 주제로 vertical 시장에서 기회를 찾아보자고 C군과 협의가 되어 최근에 계속 Gen AI를 활용해서 이것저것 해보고 있다.&lt;/p&gt;&#xA;&lt;p&gt;Stable Diffusion이 궁금했어서 유튜브에서 hands on 강의들을 좀 들으면서 따라해보니 흥미를 느끼게 되어서 친구들 사진으로 장난도 치고 그랬다. 어제 C군이 &amp;lsquo;AI가 영상을 학습할 수 있는가&amp;rsquo;를 질문해서 처음에 이게 될까 싶었는데, Stable Diffusion에서 CLIP Text Encode를 사용했던 것이 기억이 났다. Positive/Negative 프롬프트를 해당 노드에 입력해서 KSampler를 거쳐 Decode를 하면 이미지가 생성되는 구조였다.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>첫번째 글</title>
-      <link>http://localhost:1313/posts/first-post/</link>
+      <link>http://localhost:1313/posts/2025-04-15_first_post/</link>
       <pubDate>Tue, 15 Apr 2025 10:41:26 +0900</pubDate>
-      <guid>http://localhost:1313/posts/first-post/</guid>
-      <description>&lt;p&gt;사실 새해 목표 중 하나가 일기를 쓰는 것이었는데, 어느덧 4월 중순이 되었다. 친한 동생이자 선배인 H군은 회고 모임을 하면서 주기적으로 작성한 글을 내게 메신저로 보내준다. 늘 읽기만 하면서 &amp;lsquo;잘 읽었습니다&amp;rsquo; 정도의 답신만 보내고 있었는데, 나도 한번 기록을 남겨보면 어떨까 싶었다.&lt;/p&gt;&#xA;&lt;p&gt;최근 자주 만나게 된 L형과 지난주에 술을 마셨다. (L형은 나보다 3살이 많은데, 컴퓨터 공학도답지 않게 뜬구름 잡는 이야기를 나누는 것을 좋아한다.) L형은 인생의 목표가 본인이 죽은 후에도 남을 유산을 만드는 것이라고 했다. 그래서 지금도 좋은 프로덕트를 만들려는 노력이 그 일환인 것 같았다.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/2025-04-15_first_post/</guid>
+      <description>&lt;p&gt;사실 새해 목표 중 하나가 일기를 쓰는 것이었는데, 어느덧 4월 중순이 되었다. 친한 동생이자 선배인 H군은 회고 모임을 하면서 주기적으로 작성한 글을 내게 메신저로 보내준다. 늘 읽기만 하면서 &amp;lsquo;잘 읽었습니다&amp;rsquo; 정도의 답신만 보내고 있었는데, 나도 한번 기록을 남겨보면 어떨까 싶었다.&lt;/p&gt;&#xA;&lt;p&gt;최근들어 자주 만나고 있는 L형과 지난주에 술을 마셨다. (L형은 나보다 3살이 많은데, 컴퓨터 공학도답지 않게 뜬구름 잡는 이야기를 나누는 것을 좋아한다.) L형은 인생의 목표가 본인이 죽은 후에도 남을 유산을 만드는 것이라고 했다. 그래서 지금도 좋은 프로덕트를 만들려는 노력이 그 일환인 것 같았다.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
